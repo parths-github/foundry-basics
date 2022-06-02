@@ -1,0 +1,21 @@
+1- "curl -L https://foundry.paradigm.xyz | bash"
+2- in new terminal - "foundryup"
+3- "forge init" -will create some folders like hardhat
+
+to main command - forge and cast
+"forge --help" -for buiding and testing
+cast- for all blockcain related functions
+
+4-for compilation-  "forge build"
+
+
+for hardhat - install hardhat by "npm install hardhat" or "yarn add hardhat"
+
+
+for deployment - forge create <ContractName> --private-key <privateKey> --rpc-url <alchemyor infura url>
+
+
+to onlu call particular function "forge test -m testShouldBeReverted"
+
+
+for dubugging particular function "forge debug ./test/StakeContract.t.sol StakeContractTest --sig "testStakingToken()" --debug"
